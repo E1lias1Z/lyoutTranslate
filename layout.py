@@ -13,14 +13,5 @@ coorrection_shift = {'Q': 'Й', 'W': 'Ц', 'E': 'У', 'R':'К', 'T':'Е', 'Y':'�
                 'G':'П', 'H':'Р', 'J':'О', 'K':'Л', 'L':'Д', ':':'Ж', '"':'Э', 'Z':'Я',
                 'X':'Ч', 'C':'C', 'V':'М', 'B':'И', 'N':'Т', 'M':'Ь', '<':'Б','>':'Ю', '?':',',
                 '~':'Ё', '@':'"', '#':'№', '$':';', '^':':', '&':'?'}
-def correct_layout(message):
-    for w in message:
-        if(w in coorrection.keys()):
-            message = message.replace(w, coorrection[w])
-        elif(w in coorrection_shift.keys()):
-            message = message.replace(w, coorrection_shift[w])
-    return message
 
-
-msg = str(input("Введите сообщение: "))
-print("Расшифрованное сообщение: " ,correct_layout(msg), sep='')
+#словари
