@@ -51,6 +51,6 @@ class MainProg:
     def run(self):
         self.widgets()
         self.win.mainloop()
-
+#-------------------------------------------------------------------------------------------------------
 myApp = MainProg(320, 800, title='Layout Translator')
 myApp.run()
