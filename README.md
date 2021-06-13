@@ -1,2 +1,0 @@
-# lyoutTranslate
-my program translate
