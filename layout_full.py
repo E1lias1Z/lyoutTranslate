@@ -7,6 +7,7 @@ from layout import coorrection, coorrection_shift
 from tkinter import *
 from tkinter import Text
 
+#Класс основной программы MainProg--------------------------------------------
 class MainProg:
     def __init__(self, height, width, title = 'Layout translate'):
         self.win = Tk()
